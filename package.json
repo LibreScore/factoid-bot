@@ -1,0 +1,25 @@
+{
+  "name": "librescore-factoids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "SealsRock12",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.6",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "erlpack": "github:discord/erlpack",
+    "typescript": "^4.7.2",
+    "utf-8-validate": "^5.0.9",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
