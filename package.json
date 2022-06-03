@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "SealsRock12",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bufferutil": "^4.0.6",
     "discord.js": "^13.7.0",

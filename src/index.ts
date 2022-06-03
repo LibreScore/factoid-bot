@@ -14,7 +14,9 @@ bot.on("messageCreate", message => {
   if (message.content.startsWith("?")) {
     const keyword = message.content.split(" ")[0].slice(1);
     //console.log(`keyword: ${keyword}`);
-    const factoid = factoids.find(e => e.keyword === keyword);
+    const factoid = factoids.find(
+      e => e.keyword === keyword || e.aliases?.includes(keyword)
+    );
     if (!factoid) return;
     //console.log("omg theres a factoid");
     const senderPing = `<@${message.author.id}>`;

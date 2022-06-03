@@ -13,14 +13,16 @@ who can\'t read simple instructions.',
     title: "Outdated Script",
     description:
       "You are using an outdated script. Please see <#900496770403041351> for instructions on \
-how to update it.\n\n(You can click on the channel name highlighted in blue to go there.)"
+how to update it.\n\n(You can click on the channel name highlighted in blue to go there.)",
+    aliases: ["dbdp", "youtube"]
   },
   {
     keyword: "neterror",
     title: "Network Error",
     description:
       "A network error probably means that the server is down. It should come back up \
-within two hours."
+within two hours.",
+    aliases: ["networkerror", "ne"]
   },
   {
     keyword: "nocoop",
@@ -30,6 +32,21 @@ within two hours."
 satisfied or disagree with our advice. Do not continue to ask the same question now that we've \
 helped you. Thanks!",
     footer: " - r/techsupport discord"
+  },
+  {
+    keyword: "tryagain",
+    title: "Try Again",
+    description:
+      "When we ask you to try something again, we want you to try it right now. Please don't just \
+relay the fact that you tried it in the past."
+  },
+  {
+    keyword: "dw",
+    title: "Doesn't work",
+    description:
+      "Saying something doesn't work is not enough info for us to help you. Explain what \
+you are trying to do, and what issue you are facing in the process.",
+    footer: " - r/techsupport discord, paraphrased"
   }
 ];
 
@@ -38,4 +55,5 @@ export interface Factoid {
   title: string;
   description: string;
   footer?: string;
+  aliases?: string[];
 }
