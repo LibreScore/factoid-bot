@@ -36,7 +36,8 @@ bot.on("messageCreate", message => {
     const embed = new MessageEmbed()
       .setColor(3447003)
       .setAuthor({ name: factoid.title })
-      .setDescription(factoid.description);
+      .setDescription(factoid.description)
+      .setFooter({ text: factoid.footer || "" });
 
     message.channel.send({
       content: `${senderPing} ${pingedPing}`,
