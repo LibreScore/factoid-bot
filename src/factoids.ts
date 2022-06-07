@@ -47,6 +47,14 @@ relay the fact that you tried it in the past."
       "Saying something doesn't work is not enough info for us to help you. Explain what \
 you are trying to do, and what issue you are facing in the process.",
     footer: " - r/techsupport discord, paraphrased"
+  },
+  {
+    keyword: "official",
+    title: "Official Scores",
+    description:
+      "Official scores can't be downloaded with the app or CLI. They can only be \
+downloaded with the script and a Pro+ subscription.\n\nWithout the script, you can't download \
+official scores at all, even with a Pro+ subscription."
   }
 ];
 
