@@ -31,7 +31,7 @@ bot.on("messageCreate", message => {
       message.mentions.repliedUser
     ) {
       pingedPing = `<@${
-        message.mentions.repliedUser!.id || message.mentions.users.firstKey()
+        message.mentions.repliedUser?.id || message.mentions.users.firstKey()
       }>`;
     }
 

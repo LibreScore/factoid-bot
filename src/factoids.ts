@@ -55,6 +55,14 @@ you are trying to do, and what issue you are facing in the process.",
       "Official scores can't be downloaded with the app or CLI. They can only be \
 downloaded with the script and a Pro+ subscription.\n\nWithout the script, you can't download \
 official scores at all, even with a Pro+ subscription."
+  },
+  {
+    keyword: "dask",
+    title: "Don't Ask to Ask",
+    description:
+      "The good thing about chats is that questions don't have to be \
+answered in real time. Therefore, it is a better idea to just state the question than ask to be helped.\n\n\
+More information: https://dontasktoask.com/"
   }
 ];
 
