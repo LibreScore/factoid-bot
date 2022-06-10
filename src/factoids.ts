@@ -63,6 +63,14 @@ official scores at all, even with a Pro+ subscription."
       "The good thing about chats is that questions don't have to be \
 answered in real time. Therefore, it is a better idea to just state the question than ask to be helped.\n\n\
 More information: https://dontasktoask.com/"
+  },
+  {
+    keyword: "individual",
+    title: "Individual Parts",
+    description:
+      "To download individual parts, first download the MSCZ, then use the webmscore website to convert: \
+https://librescore.github.io\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation",
+    aliases: ["indparts", "parts"]
   }
 ];
 
