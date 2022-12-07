@@ -52,9 +52,7 @@ you are trying to do, and what issue you are facing in the process.",
     keyword: "official",
     title: "Official Scores",
     description:
-      "Official scores can't be downloaded with the app or CLI. They can only be \
-downloaded with the script and a Pro+ subscription.\n\nWithout the script, you can't download \
-official scores at all, even with a Pro+ subscription."
+      "**Official Scores require a MuseScore Pro+ subscription (free trial available) to download.**\n> ***Note:** MSCZ files are not available for Official Scores. The LibreScore App cannot download Official Scores.*\n\n**__What should I do?__**\n**1.** Subscribe to a MuseScore Pro+ subscription from here: https://musescore.com/upgrade. A free trial is available.\n**2.** Use the Userscript (browser extension) to download PDF, MIDI, and MP3. The Userscript can be installed from here: https://github.com/LibreScore/dl-librescore#userscript\n\n**Q: Why do I need both the Pro+ Subscription and the Userscript?**\n***A:** MuseScore's Pro+ Subscription doesn't provide downloads for Official Scores, it only allows viewing them. The Userscript permits you to download Official Scores, as long as you can view them with a Pro+ subscription.*"
   },
   {
     keyword: "dask",
