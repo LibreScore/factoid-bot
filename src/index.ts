@@ -13,6 +13,7 @@ bot.on("ready", () => {
 bot.on("messageCreate", message => {
   if (message.content.startsWith("?")) {
     const keyword = message.content.split(" ")[0].slice(1);
+    const isDiscrete = message.content.includes("--discrete");
     //console.log(`keyword: ${keyword}`);
     const factoid = factoids.find(
       e => e.keyword === keyword || e.aliases?.includes(keyword)
@@ -34,15 +35,17 @@ bot.on("messageCreate", message => {
         message.mentions.repliedUser?.id || message.mentions.users.firstKey()
       }>`;
     }
+    
+    const color = isDiscrete ? 0x2f3136 : 3447003;
 
     const embed = new MessageEmbed()
-      .setColor(3447003)
+      .setColor(color)
       .setAuthor({ name: factoid.title })
       .setDescription(factoid.description)
       .setFooter({ text: factoid.footer || "" });
 
     message.channel.send({
-      content: `${senderPing} ${pingedPing}`,
+      content: isDiscrete ? `${senderPing} ${pingedPing}` : "",
       embeds: [embed]
     });
   }
