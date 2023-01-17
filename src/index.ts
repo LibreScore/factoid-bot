@@ -44,8 +44,15 @@ bot.on("messageCreate", message => {
       .setDescription(factoid.description)
       .setFooter({ text: factoid.footer || "" });
 
+    if (isDiscrete) {
+      message.channel.send({
+        embeds: [embed]
+      });
+      return;
+    }
+    
     message.channel.send({
-      content: isDiscrete ? `${senderPing} ${pingedPing}` : "",
+      content: `${senderPing} ${pingedPing}`,
       embeds: [embed]
     });
   }
