@@ -24,11 +24,28 @@ how to update it.\n\n(You can click on the channel name highlighted in blue to g
     aliases: ["networkerror", "ne"]
   },
   {
+    keyword: "nocoop",
+    title: "No-coop",
+    description:
+      "We have offered you help that we think is best. We are sorry if you are not \
+satisfied or disagree with our advice. Do not continue to ask the same question now that we've \
+helped you. Thanks!",
+    footer: " - r/techsupport discord"
+  },
+  {
     keyword: "tryagain",
     title: "Try Again",
     description:
       "When we ask you to try something again, we want you to try it right now. Please don't just \
 relay the fact that you tried it in the past."
+  },
+  {
+    keyword: "dw",
+    title: "Doesn't work",
+    description:
+      "Saying something doesn't work is not enough info for us to help you. Explain what \
+you are trying to do, and what issue you are facing in the process.",
+    footer: " - r/techsupport discord, paraphrased"
   },
   {
     keyword: "official",
@@ -49,14 +66,14 @@ More information: https://dontasktoask.com/"
     title: "Individual Parts",
     description:
       "To download individual parts, first download the MSCZ, then use the webmscore website to convert: \
-https://webmscore.librescore.org/\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation",
+https://librescore.github.io\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation",
     aliases: ["indparts", "parts"]
   },
   {
     keyword: "convert",
     title: "Convert to Other File Types",
     description: "To convert to file types other than MSCZ/MIDI/PDF/MP3, first download the MSCZ, then use the webmscore website to convert: \
-https://webmscore.librescore.org/\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation"
+https://librescore.github.io\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation"
   }
 ];
 
