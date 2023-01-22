@@ -66,14 +66,14 @@ More information: https://dontasktoask.com/"
     title: "Individual Parts",
     description:
       "To download individual parts, first download the MSCZ, then use the webmscore website to convert: \
-https://librescore.github.io\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation",
+https://webmscore-pwa.librescore.org\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation",
     aliases: ["indparts", "parts"]
   },
   {
     keyword: "convert",
     title: "Convert to Other File Types",
     description: "To convert to file types other than MSCZ/MIDI/PDF/MP3, first download the MSCZ, then use the webmscore website to convert: \
-https://librescore.github.io\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation"
+https://webmscore-pwa.librescore.org\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation"
   }
 ];
 
