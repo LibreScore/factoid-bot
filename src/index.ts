@@ -36,7 +36,7 @@ bot.on("messageCreate", message => {
       }>`;
     }
     
-    const color = isDiscrete ? 0x2f3136 : 3447003;
+    const color = isDiscrete ? 0x2b2d31 : 3447003;
 
     const embed = new MessageEmbed()
       .setColor(color)
