@@ -24,28 +24,11 @@ how to update it.\n\n(You can click on the channel name highlighted in blue to g
     aliases: ["networkerror", "ne"]
   },
   {
-    keyword: "nocoop",
-    title: "No-coop",
-    description:
-      "We have offered you help that we think is best. We are sorry if you are not \
-satisfied or disagree with our advice. Do not continue to ask the same question now that we've \
-helped you. Thanks!",
-    footer: " - r/techsupport discord"
-  },
-  {
     keyword: "tryagain",
     title: "Try Again",
     description:
       "When we ask you to try something again, we want you to try it right now. Please don't just \
 relay the fact that you tried it in the past."
-  },
-  {
-    keyword: "dw",
-    title: "Doesn't work",
-    description:
-      "Saying something doesn't work is not enough info for us to help you. Explain what \
-you are trying to do, and what issue you are facing in the process.",
-    footer: " - r/techsupport discord, paraphrased"
   },
   {
     keyword: "official",
