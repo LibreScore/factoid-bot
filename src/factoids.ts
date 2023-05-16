@@ -74,6 +74,12 @@ https://webmscore-pwa.librescore.org\n\nYou can download MSCZ with the LibreScor
     title: "Convert to Other File Types",
     description: "To convert to file types other than MSCZ/MIDI/PDF/MP3, first download the MSCZ, then use the webmscore website to convert: \
 https://webmscore-pwa.librescore.org\n\nYou can download MSCZ with the LibreScore app: https://github.com/LibreScore/app-librescore#installation"
+  },
+  {
+    keyword: "safety-licensing",
+    title: "Common Safety/Licensing Questions",
+    description: "**Q: Is the app a virus?**\n***A: **What do you expect the creators of the app to tell you? No, it's not a virus.*\n\n**Q: Why does it need to be an app?**\n***A:** The app uses a new download method, which does not work on the web.*\n\n**Q: Where is the source code for the app?**\n***A:** The app is not open-source*\n\n**Q: Why is the app not open-source?**\n***A:** Because of legal issues. Unfortunately we cannot elaborate on this.*\n\n**Q: Then why is the app under the LibreScore name/the MIT license?**\n***A:** See [this discussion comment](https://github.com/LibreScore/app-librescore/discussions/27#discussioncomment-4119893) for an answer to this.*\n\n**Q: bruh I only use open-source software**\n***A:** Why are you on Discord then?*",
+    aliases: ["virus", "safety", "licensing"]
   }
 ];
 
